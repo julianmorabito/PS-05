@@ -1,0 +1,70 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    border-top: 3px #40FF33 solid;
+    border-left: 3px #FF33FB solid;
+    border-right: 3px #FF33FB solid;
+    border-bottom: 3px #ffffff solid;
+}
+
+header h1 {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100% - 3px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 3px #FF33FB solid;
+    border-right: 3px #FF33FB solid;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li {
+    list-style: none;
+    color: #f5f5f5;
+}
+
+.menu {
+    display: none;
+    justify-content: space-around;
+}
+
+.icon-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.hamburger {
+    width: 7%;
+}
+
+.hambur-menu {
+    display: flex;
+    width: 10%;
+    color: #ffffff;
+}
+
+.logo {
+   width: 20%;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}

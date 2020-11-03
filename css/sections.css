@@ -1,0 +1,89 @@
+section {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+aside {
+    margin-right: 15px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section {
+    background-image: url(../images/pinknewspaper.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 35px;
+}
+
+.second-section {
+    background-image: url(../images/cor19green.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+.third-section {
+    background-image: url(../images/worldblue.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+.fourth-section {
+    background-image: url(../images/fantasy.jpg);
+    background-size: cover;
+    background-color: #FC87F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+.section-name {
+    min-width: 20%;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.section-name h2 {
+    font-size: 25px;
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+}
+
+.headlines {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.publicityhor {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.imghor {
+    width: 100%;
+}
