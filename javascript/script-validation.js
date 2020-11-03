@@ -18,21 +18,21 @@ var postal = dataEntries[8];
 var dni = dataEntries[9];
 
 //--------------------Errors flags--------------------------------------
-nameFlagError = 0;
-emailFlagError = 0;
-passFlagError = 0;
-rePassFlagError = 0;
-ageFlagError = 0;
-phoneFlagError = 0;
-addressFlagError = 0;
-cityFlagError = 0;
-postalFlagError = 0;
-dniFlagError = 0;
+nameFlagError = 1;
+emailFlagError = 1;
+passFlagError = 1;
+rePassFlagError = 1;
+ageFlagError = 1;
+phoneFlagError = 1;
+addressFlagError = 1;
+cityFlagError = 1;
+postalFlagError = 1;
+dniFlagError = 1;
 
 errorAlert = 0;
 //--------------------BLUR VALIDATION--------------------------------------------------
 
-//--------------------name validation------------------------
+//--------------------name validation--------------------------------------------------
 
 name.onblur = function () {
     if (name.value.length < 6 || name.value.indexOf(' ') ==-1) {
@@ -44,7 +44,7 @@ name.onblur = function () {
     }
 }
 
-//-------------------email validation----------------------
+//-------------------email validation--------------------------------------------------
 email.onblur = function () {
     if(email.value.indexOf('@')!==-1 && email.value.indexOf('.com')!==-1) {
         errors[1].style.display = "none";
@@ -185,7 +185,9 @@ for (var i=0; i<10; i++) {
 
 formData.addEventListener ('submit', finalValidation);
 
-function finalValidation () {
+function finalValidation (e) {
+
+    e.preventDefault();
 
     var arrayInputsValues = ["DATA ENTERED:"] ;
     var arrayErrorAlert = [] ;
@@ -249,5 +251,7 @@ function finalValidation () {
         alert (arrayInputsValues.join('\n'));
     }
 }
+//-------------NAME KEYDOWN-------------------------------
+
 
 }
