@@ -19,6 +19,8 @@
     min-width: 270px;
     margin-top: 3%;
     margin-bottom: 1%;
+    border-right: 2px solid #F74D4D;
+    border-top: 2px solid #F74D4D ;
 }
 
 .form-structure {
@@ -30,8 +32,8 @@
     padding: 10px;
     box-shadow: 5px 10px #FF33FB;
     color: #f4f4f4;
-    border-top: 2px #0213FB solid;
-    border-left: 2px #0213FB solid;;
+    border-top: 2px #F74D4D solid;
+    border-left: 2px #F74D4D solid;;
     border-right: 3px #40FF33 solid;
     border-bottom: 6px #40FF33 solid;;
 }
@@ -59,10 +61,10 @@
 
 .data-subscription {
     background-color:#000000;
-    border-top: 2px solid #CA1AE9;
-    border-left: 2px solid #CA1AE9;
-    border-bottom: 2px solid #1ACEE9;
-    border-right: 2px solid #1ACEE9;
+    border-top: 2px solid #F74D4D;
+    border-left: 2px solid #F74D4D;
+    border-bottom: 2px solid #2F57D7;
+    border-right: 2px solid #2F57D7;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -89,6 +91,13 @@
 
 .error-message {
     background-color: #FF33FB;
-    font-size: 9px;
+    font-size: 12px;
     display: none;
+}
+
+.button-submit {
+    color: #f4f4f4;
+    background-color: #000000;
+    box-shadow: 1px 2px #40FF33;
+    border-radius: 6px;
 }
