@@ -254,7 +254,7 @@ window.onload = function () {
     }
     
     //-------------NAME KEYDOWN-------------------------------
-    name.onkeypress = function (e) {
+    name.onkeyup = function (e) {
         welcomeMessage.innerHTML = "Hello Glitcher" + " " + e.target.value;
     }
 
