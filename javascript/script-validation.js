@@ -189,7 +189,7 @@ window.onload = function () {
     function finalValidation(e) {
 
         e.preventDefault();
-
+        errorAlert = 0;
         var arrayInputsValues = ["DATA ENTERED:"];
         var arrayErrorAlert = [];
 
